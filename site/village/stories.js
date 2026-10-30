@@ -1,0 +1,20 @@
+window.VILLAGE_STORIES=[
+{id:'me-jump',tokens:['我','跳'],scene:'jump',actor:'我',spoken:'我跳起喇！'},
+{id:'dog-sit',tokens:['狗','坐','下'],scene:'sit',actor:'狗',spoken:'隻狗坐低喇。'},
+{id:'me-meat',tokens:['我','吃','肉'],scene:'eat',actor:'我',food:'肉',spoken:'我食肉。'},
+{id:'you-melon',tokens:['你','吃','瓜'],scene:'eat',actor:'你',food:'瓜',spoken:'你食西瓜。'},
+{id:'cat-bed',tokens:['貓','跳','上','床'],scene:'bedjump',actor:'貓',spoken:'隻貓跳上張床。'},
+{id:'dog-bed',tokens:['狗','爬','上','床'],scene:'bedcrawl',actor:'狗',spoken:'隻狗爬上張床。'},
+{id:'rainy',tokens:['天','上','下','雨'],scene:'rain',actor:'',spoken:'落雨喇！'},
+{id:'blowing',tokens:['我','吹'],scene:'blow',actor:'我',spoken:'我吹風車。'},
+{id:'singing',tokens:['你','唱'],scene:'sing',actor:'你',spoken:'你唱歌。'},
+{id:'rabbit-jump',tokens:['兔','跳'],scene:'jump',actor:'兔',spoken:'隻兔仔跳起喇！'},
+{id:'me-sit',tokens:['我','坐','下'],scene:'sit',actor:'我',spoken:'我坐低喇。'},
+{id:'cat-crawl',tokens:['貓','爬'],scene:'crawl',actor:'貓',spoken:'隻貓慢慢爬。'},
+{id:'tool-dog',tokens:['我','有','一','隻','小','狗'],scene:'pet',actor:'我',pet:'狗',spoken:'我有一隻小狗。',tools:true},
+{id:'tool-cat',tokens:['貓','在','床','上'],scene:'onbed',actor:'貓',spoken:'隻貓喺張床度。',tools:true},
+{id:'tool-mom',tokens:['這','是','我','的','母','親'],scene:'family',actor:'我',spoken:'呢位係我媽媽。',tools:true},
+{id:'tool-cup',tokens:['這','是','我','的','杯','子'],scene:'cup',actor:'我',spoken:'呢隻係我嘅杯。',tools:true}
+];
+// 工具字由老師提供，另色顯示，不計入原有 125 字認字進度。
+window.VILLAGE_TOOLS=['一','有','在','的','是','小','隻','這','親'];
