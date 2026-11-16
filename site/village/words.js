@@ -2915,5 +2915,245 @@ window.FOREST_WORDS=[
     "theme": "people",
     "type": "phrase",
     "batch": "b8"
+  },
+  {
+    "id": "b9-monster",
+    "c": "怪",
+    "jy": "gwaai3",
+    "vocab": [
+      "怪獸",
+      "奇怪"
+    ],
+    "line": "小怪獸笑着揮手。",
+    "hint": "圖中係一隻小怪獸。",
+    "alt": "一隻笑住揮手嘅三眼小怪獸。",
+    "image": "assets/b9-monster.webp",
+    "theme": "action",
+    "type": "character",
+    "batch": "b9",
+    "avoid": []
+  },
+  {
+    "id": "b9-clap",
+    "c": "拍",
+    "jy": "paak3",
+    "vocab": [
+      "拍手",
+      "拍球"
+    ],
+    "line": "小朋友開心地拍手。",
+    "hint": "兩隻手掌拍埋一齊。",
+    "alt": "小朋友雙手拍掌。",
+    "image": "assets/b9-clap.webp",
+    "theme": "action",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "hit",
+      "hand"
+    ]
+  },
+  {
+    "id": "b9-friend",
+    "c": "朋",
+    "jy": "pang4",
+    "vocab": [
+      "朋友",
+      "好朋友"
+    ],
+    "line": "兩個好朋友一起砌拼圖。",
+    "hint": "兩個小朋友係好朋友。",
+    "alt": "兩位朋友一齊砌拼圖。",
+    "image": "assets/b9-friend.webp",
+    "theme": "people",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "person",
+      "you",
+      "see"
+    ]
+  },
+  {
+    "id": "b9-grove",
+    "c": "林",
+    "jy": "lam4",
+    "vocab": [
+      "樹林",
+      "森林"
+    ],
+    "line": "樹林裏有很多樹。",
+    "hint": "好多棵樹生埋一齊，就係樹林。",
+    "alt": "多棵樹聚喺一齊，形成樹林。",
+    "image": "assets/b9-grove.webp",
+    "theme": "nature",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "wood",
+      "b9-spring"
+    ]
+  },
+  {
+    "id": "b9-river",
+    "c": "河",
+    "jy": "ho4",
+    "vocab": [
+      "河流",
+      "河水"
+    ],
+    "line": "河水流過草地旁邊。",
+    "hint": "睇下河水點樣喺兩邊河岸中間流。",
+    "alt": "河水喺兩邊河岸之間流過。",
+    "image": "assets/b9-river.webp",
+    "theme": "nature",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "water",
+      "river"
+    ]
+  },
+  {
+    "id": "b9-play",
+    "c": "玩",
+    "jy": "waan2",
+    "vocab": [
+      "玩具",
+      "玩耍"
+    ],
+    "line": "小朋友在玩玩具火車。",
+    "hint": "小朋友推住玩具火車玩。",
+    "alt": "小朋友喺度玩玩具火車。",
+    "image": "assets/b9-play.webp",
+    "theme": "action",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "car",
+      "b9-grip"
+    ]
+  },
+  {
+    "id": "b9-straight",
+    "c": "直",
+    "jy": "zik6",
+    "vocab": [
+      "直線",
+      "直路"
+    ],
+    "line": "我畫了一條直線。",
+    "hint": "條線直直哋，冇彎。",
+    "alt": "鉛筆畫出一條直線。",
+    "image": "assets/b9-straight.webp",
+    "theme": "action",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "ruler",
+      "pen"
+    ]
+  },
+  {
+    "id": "b9-gold",
+    "c": "金",
+    "jy": "gam1",
+    "vocab": [
+      "金色",
+      "金元寶"
+    ],
+    "line": "兩個金元寶閃閃發亮。",
+    "hint": "圖中嘅金元寶閃閃發光。",
+    "alt": "兩個金光閃閃嘅金元寶。",
+    "image": "assets/b9-gold.webp",
+    "theme": "color",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "yellow-color",
+      "orange-color",
+      "color"
+    ]
+  },
+  {
+    "id": "b9-letter",
+    "c": "信",
+    "jy": "seon3",
+    "vocab": [
+      "寫信",
+      "信封"
+    ],
+    "line": "我把信放進信封裏。",
+    "hint": "打開信封，入面有一封信。",
+    "alt": "打開嘅信封入面有一封信。",
+    "image": "assets/b9-letter.webp",
+    "theme": "home",
+    "type": "character",
+    "batch": "b9",
+    "avoid": []
+  },
+  {
+    "id": "b9-house",
+    "c": "屋",
+    "jy": "uk1",
+    "vocab": [
+      "小屋",
+      "屋頂"
+    ],
+    "line": "草地上有一間小屋。",
+    "hint": "小屋有門、有窗，仲有屋頂。",
+    "alt": "草地上有一間小屋。",
+    "image": "assets/b9-house.webp",
+    "theme": "home",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "door",
+      "window"
+    ]
+  },
+  {
+    "id": "b9-spring",
+    "c": "春",
+    "jy": "ceon1",
+    "vocab": [
+      "春天",
+      "春季"
+    ],
+    "line": "春天來了，樹上開花了。",
+    "hint": "春天好多植物會發芽同開花。",
+    "alt": "春天枝頭開花，燕子飛過。",
+    "image": "assets/b9-spring.webp",
+    "theme": "nature",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "bird",
+      "flower",
+      "winter",
+      "b9-grove"
+    ]
+  },
+  {
+    "id": "b9-grip",
+    "c": "抓",
+    "jy": "zaau1",
+    "vocab": [
+      "抓住",
+      "抓緊"
+    ],
+    "line": "小朋友用手抓住軟球。",
+    "hint": "手指用力捉實個波。",
+    "alt": "一隻手用手指抓住軟球。",
+    "image": "assets/b9-grip.webp",
+    "theme": "action",
+    "type": "character",
+    "batch": "b9",
+    "avoid": [
+      "strength",
+      "hand",
+      "claw",
+      "b9-clap"
+    ]
   }
 ];
